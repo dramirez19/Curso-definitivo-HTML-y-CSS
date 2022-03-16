@@ -1,39 +1,84 @@
 body {
     background-color: lightcyan;
     font-family: 'Quicksand';
-    
 }
 
 figcaption {
     font-size: 12px;
     font-style: italic;
 }
-figure {
-    margin-left: 0;
-    
+
+ol {
+    padding: 0;
 }
-span {
-    font-weight: bold;
-}
+
 form {
     text-align: center;
+    line-height: 2;
 }
 
 /* class */
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: black;
+}
+
+.main-nav__item a:active {
+    color: gray;
+}
+
+.main-nav__item a::after {
+    content:" |";
+}
+
 .titulo {
-    color: rgb(49, 49, 49);
-    font-size: 40px;
+    color: rgb(202, 0, 0);
+    font-size: 45px;
     text-align: center;
+    font-weight: bold;
+}
+.lista-super {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.lista-super__item {
+    list-style: none;
+    font-weight: bold;
+}
+
+.form__item {
     font-weight: bold;
 }
 
 .imagenes {
-    width: 400px;
+    width: 250px;
     border-radius: 10%;
     
 }
 
 .subtitulos {
-    font-size: 25px;
-    color: rgb(117, 0, 0);
+    font-size: 30px;
+    color: rgb(219, 186, 1);
+    text-align: center;
 }
