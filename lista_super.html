@@ -5,12 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lista del super</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <section>
-            <h1>Lista del super! 🛒</h1> 
+            <h1 class="titulo">Lista del super! 🛒</h1> 
             <form action="">
-                <label for="Fecha-compras">Fecha de compras</label>
+                <span>Fecha de compras:</span>
+                <label for="Fecha-compras"></label>
                 <input type="date" id="Fecha-compras" name="Fecha-compras" required> <br>
                 <span>Informacion del comprador: </span>
                 <label for="name">Nombre</label>
@@ -19,74 +24,76 @@
                 <input type="email" name="correo" id="correo" autocomplete="email" required>
                 <label for="pais">Pais</label>
                 <input type="text" name="pais" id="pais" autocomplete="country" required>
-                <input type="submit">
+                <input type="submit"> <br>
+
+                <span>Escoja la sede en la que desea mercar:</span>
+                <input list="sedes">
+                <datalist id="sedes">
+                    <option value="Norte"></option>
+                    <option value="Sur"></option>
+                    <option value="Oriente"></option>
+                    <option value="Occidente"></option>
+                </datalist>
             </form>
 
-            <input list="sedes">
-            <datalist id="sedes">
-                <option value="Norte"></option>
-                <option value="Sur"></option>
-                <option value="Oriente"></option>
-                <option value="Occidente"></option>
-            </datalist>
 
             <ol>
-                <li><h2>Granos 🌽</h2></li>
+                <li><h2 class="subtitulos">Granos 🌽</h2></li>
                 <ul>
                     <li>Lentejas</li>
                     <figure>
-                        <img src="./imagenes/lentejas.jpg" alt="Imágen de lentejas">
+                        <img src="./imagenes/lentejas.jpg" class="imagenes" alt="Imágen de lentejas">
                         <figcaption>Imágen de lentejas</figcaption>
                     </figure>
                     <li>Frijoles</li>
                     <figure>
-                        <img src="./imagenes/frijol.jpg" alt="Imágen de frijoles">
+                        <img src="./imagenes/frijol.jpg" class="imagenes" alt="Imágen de frijoles">
                         <figcaption>Imágen de frijoles</figcaption>
                     </figure>
                     <li>Garbanzos</li> <br>
                     <figure>
-                        <img src="./imagenes/garbanzos.jpg" alt="Imágen de garbanzos">
+                        <img src="./imagenes/garbanzos.jpg" class="imagenes" alt="Imágen de garbanzos">
                         <figcaption>Imágen de garbanzos</figcaption>
                     </figure>
                 </ul>
-                <li><h2>Frutas y verduras 🍎</h2></li>
+                <li><h2 class="subtitulos">Frutas y verduras 🍎</h2></li>
                 <ul>
                     <li>Manzanas</li>
                     <figure>
-                        <img src="./imagenes/manzana.jpg" alt="Imágen de manzanas">
+                        <img src="./imagenes/manzana.jpg" class="imagenes" alt="Imágen de manzanas">
                         <figcaption>Imágen de manzanas</figcaption>
                     </figure>
                     <li>Tomates</li>
                     <figure>
-                        <img src="./imagenes/tomates.jpg" alt="Imágen de tomates">
+                        <img src="./imagenes/tomates.jpg" class="imagenes" alt="Imágen de tomates">
                         <figcaption>Imágen de tomates</figcaption>
                     </figure>
                     <li>Fresas</li>
                     <figure>
-                        <img src="./imagenes/fresas.jpg" alt="Imágen de fresas">
+                        <img src="./imagenes/fresas.jpg" class="imagenes" alt="Imágen de fresas">
                         <figcaption>Imágen de fresas</figcaption>
                     </figure>
                     <li>Lechuga</li> <br>
                     <figure>
-                        <img src="./imagenes/lechuga.jpg" alt="Imágen de una lechuga">
+                        <img src="./imagenes/lechuga.jpg" class="imagenes" alt="Imágen de una lechuga">
                         <figcaption>Imágen de una lechuga</figcaption>
                     </figure>
                 </ul>
-                <li><h2>Carnes 🥩</h2></li>
+                <li><h2 class="subtitulos">Carnes 🥩</h2></li>
                 <ul>
                     <li><a href="https://www.youtube.com/watch?v=VtPUrVjMMek" target="blank">Costillas de cerdo</a></li>
                     <figure>
-                        <img src="./imagenes/costillas.jpg" alt="Imágen de costillas a la bbq">
+                        <img src="./imagenes/costillas.jpg" class="imagenes" alt="Imágen de costillas a la bbq">
                         <figcaption>Imágen de costillas a la BBQ</figcaption>
                     </figure>
                     <li>Punta de anca</li>
                     <figure>
-                        <img src="./imagenes/Punta-de-Anca.jpg" alt="Imágen de una punta de anca">
+                        <img src="./imagenes/Punta-de-Anca.jpg" class="imagenes" alt="Imágen de una punta de anca">
                         <figcaption>Imágen de una punta de anca</figcaption>
                     </figure>
                     <li>Salmón</li> <br>
                     <figure>
-                        <img src="./imagenes/salmon.jpg" alt="Imágen de un salmón">
+                        <img src="./imagenes/salmon.jpg" class="imagenes" alt="Imágen de un salmón">
                         <figcaption>Imágen de un salmón</figcaption>
                     </figure>
                 </ul>

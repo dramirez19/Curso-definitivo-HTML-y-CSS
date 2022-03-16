@@ -1,15 +1,39 @@
-p {
-    color: lightseagreen;
-    font-size: 30px;
+body {
+    background-color: lightcyan;
+    font-family: 'Quicksand';
+    
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+figure {
+    margin-left: 0;
+    
+}
+span {
+    font-weight: bold;
+}
+form {
+    text-align: center;
 }
 
 /* class */
-.parrafo {
-    color: blueviolet;
+.titulo {
+    color: rgb(49, 49, 49);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
-/* ID */
-#texto {
-    color: chartreuse;
-    font-size: 24px;
+.imagenes {
+    width: 400px;
+    border-radius: 10%;
+    
+}
+
+.subtitulos {
+    font-size: 25px;
+    color: rgb(117, 0, 0);
 }
