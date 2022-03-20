@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+.container {
+    font-size: 1.6rem;
+}
+
+#one {
+    border: 2px;
+    background-color: red;
+    border-radius: 10px;
+    width: 30rem;
+    height: 10rem;
+    position: absolute;
+    left: 50rem;
+    top: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#two {
+    border: 1px solid black;
+    background-color: rgb(217, 197, 255);
+    border-radius: 30px;
+    height: 30rem;
+    width: 50rem;
+    position: absolute;
+    left: 40rem;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
